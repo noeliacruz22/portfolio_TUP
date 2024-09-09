@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.projects {
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+    background: var(--fondo-proyectos);
+}
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.project {
+    background-color: rgb(84, 84, 85);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.project p {
+    margin: 10px 0;
+}
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #9d4edd;
+    color: white;
+    border-radius: 5px;
+}
+.project a:hover {
+    background-color: #7b2cbf;
+}
+@media (max-width: 768px) {
+    .project {
+        width: calc(100% - 40px);
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .project {
+        width: calc(50% - 40px);
+    }
+}
+@media (min-width: 1024px) {
+    .project {
+        width: calc(33% - 40px);
+    }
+}
+
+
+
+
+
+
+
+
+
